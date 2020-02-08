@@ -9,4 +9,4 @@ yarn
 yarn start
 ```
 
-Server will be running on http://localhost:4000/playground
+Server will be running on http://localhost:12128/graphql
