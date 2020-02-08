@@ -1,10 +1,10 @@
 {
   "name": "hackernews-graphql",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "repository": "https://github.com/byteark-project/hackernews-graphql.git",
   "author": "lastingman <keithleaves@gmail.com>",
-  "license": "MIT",
+  "license": "GNU GENERAL PUBLIC LICENSE",
   "scripts": {
     "start": "nodemon --exec babel-node src/index.js"
   },
