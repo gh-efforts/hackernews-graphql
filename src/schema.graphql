@@ -46,6 +46,12 @@ type Item {
 }
 
 enum Type {
+  """
+  top stories
+  """
   top
+  """
+  new stories
+  """
   new
 }
