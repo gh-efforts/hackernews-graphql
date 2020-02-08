@@ -1,5 +1,7 @@
 # HackerNews Graphql
 
+Graphql version of [Hacker News API](https://github.com/HackerNews/API)
+
 ## Start
 
 ```bash
