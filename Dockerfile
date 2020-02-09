@@ -1,7 +1,8 @@
 FROM node:lts-alpine
 WORKDIR /node/hackernews-graphql
-ENV NODE_ENV development
 COPY . .
-RUN yarn --frozen-lockfile
+RUN yarn
+RUN yarn build
+RUN yarn start
 EXPOSE 12128
 CMD ["yarn", "start"]

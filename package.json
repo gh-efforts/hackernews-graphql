@@ -6,7 +6,10 @@
   "author": "lastingman <keithleaves@gmail.com>",
   "license": "GPL-3.0-only",
   "scripts": {
-    "start": "nodemon --exec babel-node src/index.js"
+    "start": "node dist/index.js",
+    "dev": "nodemon --exec babel-node src/index.js",
+    "build": "babel src --out-dir dist --copy-files",
+    "lint": "eslint src --fix"
   },
   "dependencies": {
     "firebase": "^7.8.1",
