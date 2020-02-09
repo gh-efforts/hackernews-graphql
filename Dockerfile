@@ -1,5 +1,5 @@
 FROM node:lts-alpine
-ENV NODE_ENV production
+ENV NODE_ENV development
 WORKDIR /node/hackernews-graphql
 COPY . .
 RUN yarn --frozen-lockfile
