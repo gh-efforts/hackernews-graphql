@@ -20,7 +20,7 @@ yarn start
 ### Using docker
 
 ```bash
-docker-compose up --build
+yarn docker
 ```
 
 Server will be running on http://localhost:12128/graphql
