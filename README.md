@@ -2,6 +2,9 @@
 
 Graphql version of [Hacker News API](https://github.com/HackerNews/API)
 
+old: https://hackernews.byteark.cn/graphql
+new: https://like-hackernews.herokuapp.com/graphql
+
 ## Develop
 
 ```bash
