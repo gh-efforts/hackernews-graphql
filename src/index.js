@@ -5,7 +5,7 @@ import db from './firebase'
 const typeDefs = './src/schema.graphql'
 
 const options = {
-  port: '12128',
+  port: process.env.PORT || '12128',
   endpoint: '/graphql',
   playground: '/graphql',
 }
